@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Navbar from "./layout/Navbar";
 
-export default class App extends Component {
+export default class About extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <h2>About</h2>
+        <hr />
       </div>
     );
   }
